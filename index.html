@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bruno Moura - Corretor de Imóveis</title>
+</head>
+<body>
+    <header>
+        <h1>Bruno Moura</h1>
+        <p>Corretor de Imóveis - Encontre o Imóvel dos Seus Sonhos</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou Bruno Moura, corretor especializado no mercado imobiliário. Trabalho com imóveis residenciais e comerciais, oferecendo o melhor atendimento para você encontrar o imóvel ideal.</p>
+        </section>
+
+        <section id="tipos-imoveis">
+            <h2>Tipos de Imóveis</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Imóveis Residenciais</h3>
+                    <p>Casas e apartamentos em diversas regiões, prontos para receber sua família.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Olá, gostaria de mais informações sobre Imóveis Residenciais')">Consultar via WhatsApp</button>
+                </div>
+                <div class="card">
+                    <h3>Imóveis Comerciais</h3>
+                    <p>Espaços comerciais para diversos tipos de negócios, em localizações estratégicas.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Olá, gostaria de mais informações sobre Imóveis Comerciais')">Consultar via WhatsApp</button>
+                </div>
+                <div class="card">
+                    <h3>Lançamentos</h3>
+                    <p>Empreendimentos novos com condições especiais de financiamento.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Olá, gostaria de mais informações sobre Lançamentos')">Consultar via WhatsApp</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos">
+            <h2>Depoimentos de Clientes</h2>
+            <div class="testimonial">
+                <p>"O Bruno me ajudou a encontrar a casa perfeita! Atendimento impecável." - Cliente Satisfeito</p>
+            </div>
+            <div class="testimonial">
+                <p>"Excelente profissional, sempre disponível para tirar dúvidas. Recomendo!" - Cliente Satisfeito</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações ou para agendar uma visita, entre em contato pelo WhatsApp.</p>
+            <button id="whatsapp-btn" onclick="contatoWhatsApp('Olá Bruno, gostaria de saber mais sobre seus serviços de corretagem de imóveis')">Falar pelo WhatsApp</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bruno Moura - Corretor de Imóveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

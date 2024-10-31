@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcefee;
+    color:black;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #051832;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seção Sobre */
+#sobre {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#sobre h2 {
+    color: #073104;
+    margin-bottom: 15px;
+}
+
+/* Cards de Tipos de Imóveis */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #2A7AE4;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Depoimentos */
+.testimonial {
+    background-color: #eaeaea;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Botão de WhatsApp */
+button {
+    background-color: #50c13a;
+    color: rgb(236, 215, 215);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #128C7E;
+}
+
+/* Footer */
+footer {
+    background-color: #2A7AE4;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+}
